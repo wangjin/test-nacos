@@ -39,6 +39,7 @@
 
     <modules>
         <module>test-nacos-service</module>
+        <module>test-nacos-consumer</module>
     </modules>
 
     <dependencyManagement>
