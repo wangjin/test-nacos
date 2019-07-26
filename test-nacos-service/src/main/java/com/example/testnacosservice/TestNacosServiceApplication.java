@@ -1,13 +1,13 @@
-package com.example.testnacos;
+package com.example.testnacosservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TestNacosApplication {
+public class TestNacosServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(TestNacosApplication.class, args);
+        SpringApplication.run(TestNacosServiceApplication.class, args);
     }
 
 }
