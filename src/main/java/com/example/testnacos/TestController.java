@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
 
 
-    @Value(value = "${teststr:defalut}")
+    @Value(value = "${teststr:default}")
     private String testStr;
 
     @GetMapping(value = "/test")
